@@ -1,0 +1,84 @@
+#######################################
+# Syntax Coloring Map for library SIA
+#######################################
+
+#######################################
+# KEYWORD1 Classes, datatypes, and C++ keywords
+#######################################
+Project	KEYWORD1
+Relay	KEYWORD1
+Led	KEYWORD1
+Button	KEYWORD1
+LiquidLevel	KEYWORD1
+Barrier	KEYWORD1
+SIA	KEYWORD1
+ 
+#######################################
+# KEYWORD2 Methods and functions
+#######################################
+
+setState	KEYWORD2
+getState	KEYWORD2
+setCupSize	KEYWORD2
+getCupSize	KEYWORD2
+numbToString	KEYWORD2
+setPaid	KEYWORD2
+addPaid	KEYWORD2
+getPaid	KEYWORD2
+isPaid	KEYWORD2
+setPct	KEYWORD2
+getPct	KEYWORD2
+setStartSeq	KEYWORD2
+getStartSeq	KEYWORD2
+setEndSeq	KEYWORD2
+getEndSeq	KEYWORD2
+setEndFill	KEYWORD2
+getEndFill	KEYWORD2
+setPricev	KEYWORD2
+getPrice	KEYWORD2
+setDebounceChipHere	KEYWORD2
+getDebounceChipHere	KEYWORD2
+setDebounceCupSize	KEYWORD2
+getDebounceCupSize	KEYWORD2
+pctTimeCalc	KEYWORD2
+setInsertCup	KEYWORD2
+getInsertCup	KEYWORD2
+setNoCup	KEYWORD2
+getNoCup	KEYWORD2
+priceCalc	KEYWORD2
+setVolume	KEYWORD2
+setCupOut	KEYWORD2
+getCupOut	KEYWORD2
+
+create	KEYWORD2
+timeControll	KEYWORD2
+relayOn	KEYWORD2
+relayOff	KEYWORD2
+
+create	KEYWORD2
+timeControll	KEYWORD2
+LEDOn	KEYWORD2
+LEDOff	KEYWORD2
+
+isPressed	KEYWORD2
+getPressed	KEYWORD2
+
+calibration	KEYWORD2
+interrupt	KEYWORD2
+
+rampMovement	KEYWORD2
+curtainMovement	KEYWORD2
+
+receive	KEYWORD2
+chipDa	KEYWORD2
+fill	KEYWORD2
+payment	KEYWORD2
+
+#######################################
+# KEYWORD3 setup and loop functions, as well as the Serial keywords
+#######################################
+
+#######################################
+# LITERAL1 Constants
+#######################################
+sia	LITERAL1
