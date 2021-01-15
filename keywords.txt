@@ -7,7 +7,7 @@
 #######################################
 Project	KEYWORD1
 Relay	KEYWORD1
-Led	KEYWORD1
+LED	KEYWORD1
 Button	KEYWORD1
 LiquidLevel	KEYWORD1
 Barrier	KEYWORD1
@@ -17,6 +17,7 @@ SIA	KEYWORD1
 # KEYWORD2 Methods and functions
 #######################################
 
+#Project Methods
 setState	KEYWORD2
 getState	KEYWORD2
 setCupSize	KEYWORD2
@@ -34,7 +35,7 @@ setEndSeq	KEYWORD2
 getEndSeq	KEYWORD2
 setEndFill	KEYWORD2
 getEndFill	KEYWORD2
-setPricev	KEYWORD2
+setPrice	KEYWORD2
 getPrice	KEYWORD2
 setDebounceChipHere	KEYWORD2
 getDebounceChipHere	KEYWORD2
@@ -49,26 +50,31 @@ priceCalc	KEYWORD2
 setVolume	KEYWORD2
 setCupOut	KEYWORD2
 getCupOut	KEYWORD2
+getStringPart	KEYWORD2
 
-create	KEYWORD2
+#Relay Methods
 timeControll	KEYWORD2
 relayOn	KEYWORD2
 relayOff	KEYWORD2
 
-create	KEYWORD2
+#LED Methods
 timeControll	KEYWORD2
-LEDOn	KEYWORD2
-LEDOff	KEYWORD2
+On	KEYWORD2
+Off	KEYWORD2
 
+#Button Methods
 isPressed	KEYWORD2
 getPressed	KEYWORD2
 
+#Barrier Methods
 calibration	KEYWORD2
 interrupt	KEYWORD2
 
+#Stepper fuctions
 rampMovement	KEYWORD2
 curtainMovement	KEYWORD2
 
+#main functions
 receive	KEYWORD2
 chipDa	KEYWORD2
 fill	KEYWORD2
