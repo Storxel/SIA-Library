@@ -1,4 +1,4 @@
-# SIA
+# SIA Library
 
 This library was created as part of the SIA (a school subject). This project is a library for an Arduino. 
 The library contains the following classes:
