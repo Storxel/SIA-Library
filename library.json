@@ -2,7 +2,7 @@
   "name": "SIA Library",
   "keywords": "sia, library",
   "description": "Adds a Relay, Button, LED, Barrier and Project object.",
-  "version": "1.4.6",
+  "version": "2.3.0",
   "frameworks": "arduino",
   "platforms": [ "atmelavr", "ststm32", "espressif8266", "espressif32", "samd" ]
 }
