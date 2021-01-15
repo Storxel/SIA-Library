@@ -6,7 +6,7 @@ class Project
 {
   private:
     String tag = "";
-    int state = 1;
+    int state = 10;
     int cupSize = 0;
     float paid = 0;
     float pctA = 0;
@@ -64,9 +64,9 @@ class Project
     void setVolume(int z);
     void setCupOut(int z);
     int getCupOut();
+    String getStringPart(String data, char separator, int index);
 
 };
-
 class Relay
 {
   //low trigger Relay
@@ -76,7 +76,6 @@ class Relay
     int pin;
   public:
     Relay(int z);
-    void create();
     void timeControll(int t);
     void relayOn();
     void relayOff();
@@ -90,11 +89,9 @@ class LED
     int pin;
   public:
     LED(int z);
-    void create();
     void timeControll(int t);
-    void LEDOn();
-    void LEDOff();
-
+    void On();
+    void Off();
 };
 
 class Button {
@@ -107,7 +104,6 @@ class Button {
     bool isPressed();
     bool getPressed();
 };
-
 class Barrier {
   private:
     int pin;
